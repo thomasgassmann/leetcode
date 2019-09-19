@@ -7,9 +7,7 @@ class Solution:
         while abs_x != 0:
             pop = abs_x % 10
             abs_x //= 10
-            if rev > MAX / 10 or (rev == MAX / 10 and pop > 7):
-                return 0
-            if rev < MIN / 10 or (rev == MIN / 10 and pop < -8):
+            if rev > MAX / 10 or rev < MIN / 10:
                 return 0
             rev = rev * 10 + pop
         return rev if x > 0 else -rev
