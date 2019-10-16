@@ -1,12 +1,13 @@
 from typing import List
 from collections import Counter
+from decimal import Decimal
 
 class Solution:
 
     def get_weight(self, p_1, p_2):
         if p_1[0] == p_2[0]:
             return None
-        m = (p_2[1] - p_1[1]) / (p_2[0] - p_1[0])
+        m = Decimal(p_2[1] - p_1[1]) / Decimal(p_2[0] - p_1[0])
         return m
 
     def maxPoints(self, points: List[List[int]]) -> int:
