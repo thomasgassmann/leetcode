@@ -5,4 +5,4 @@
 - [x] https://leetcode.com/problems/maximum-frequency-stack/
 - [x] https://leetcode.com/problems/valid-number/
 - [x] https://leetcode.com/problems/largest-number/
-- [ ] https://leetcode.com/problems/max-points-on-a-line/
+- [x] https://leetcode.com/problems/max-points-on-a-line/
