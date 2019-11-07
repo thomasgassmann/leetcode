@@ -10,5 +10,6 @@
 - [ ] https://leetcode.com/problems/encode-and-decode-tinyurl/
 - [ ] https://leetcode.com/problems/unique-paths-iii/
 - [ ] https://leetcode.com/problems/missing-number-in-arithmetic-progression/
+- [ ] https://leetcode.com/problems/longest-increasing-subsequence/
 - [x] https://leetcode.com/problems/longest-palindromic-substring/
 - [ ] longest-palindromic-substring with Manacher's Algorithm
